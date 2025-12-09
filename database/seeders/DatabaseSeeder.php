@@ -34,7 +34,7 @@ class DatabaseSeeder extends Seeder
         
         $seller2 = User::create([ // Owner of Chic Boutique
             'name' => 'Sarah Chic',
-            'email' => 'sarah@example.com',
+            'email' => 'muzaki@example.com',
             'password' => Hash::make('password'),
             'role' => 'member',
         ]);
